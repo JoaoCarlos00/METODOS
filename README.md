@@ -1,13 +1,9 @@
 # ETAPA 2 AC1
 
 Nesta etapa os exercícios serão sobre números
-## 🚀 Enunciados
-
-Escreva um método que mostra se um número é positivo ou negativo. Considere o zero positivo.
-
 
 ### 📋 Códigos
-
+Escreva um método que mostra se um número é positivo ou negativo. Considere o zero positivo.
 
 import java.util.Scanner; //Importei o scanner pois ele é importante para determinar se o numero é positivo ou negativo
 public class NumeroPositivoNegativo {
