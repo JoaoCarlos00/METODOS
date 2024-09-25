@@ -150,12 +150,12 @@ public static void main (String args[]){
 	double retorno;
 	
 	System.out.println("Digite o Primeiro número: ");
-     double numero = scanner.nextDouble();; // Aqui determinei e criei uma variavel que ira armazenar o numero do fatorial
+        double numero = scanner.nextDouble();; // Aqui determinei e criei uma variavel que ira armazenar o numero do fatorial
     
-     System.out.println("Digite o Segundo número: ");
-     double numero2 = scanner.nextDouble();; // E aqui criei outra variavel que sera o resultado temporário da multiplicação
+        System.out.println("Digite o Segundo número: ");
+	double numero2 = scanner.nextDouble();; // Aqui criei outra variavel para a fatoração
 
-     retorno= numero * (numero2-1); // Aqui determinei como o codigo ira fatorar o numero
+        retorno= numero * (numero2-1); // Aqui determinei como o codigo ira fatorar o numero
      
      System.out.println(retorno); 
   }
